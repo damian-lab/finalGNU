@@ -12,4 +12,4 @@ EXPOSE '8080'
 RUN echo "ServerName 127.0.01:8080"
 #Establece el commando del proceso de inicio del contenedor
 
-CMD ["nginx", "-g", "daemon off"]
+CMD ["nginx"]
